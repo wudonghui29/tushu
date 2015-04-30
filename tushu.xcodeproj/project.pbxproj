@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE82BC01AF23E3E00789B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BBF1AF23E3E00789B7A /* main.m */; };
+		DCE82BC31AF23E3E00789B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BC21AF23E3E00789B7A /* AppDelegate.m */; };
+		DCE82BC61AF23E3E00789B7A /* tushu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BC41AF23E3E00789B7A /* tushu.xcdatamodeld */; };
+		DCE82BC91AF23E3E00789B7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BC81AF23E3E00789B7A /* ViewController.m */; };
+		DCE82BCE1AF23E3E00789B7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE82BCD1AF23E3E00789B7A /* Images.xcassets */; };
+		DCE82BDD1AF23E3E00789B7A /* tushuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BDC1AF23E3E00789B7A /* tushuTests.m */; };
+		DCE82BE81AF23EC600789B7A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BE71AF23EC600789B7A /* Book.m */; };
+		DCE82BEB1AF23EC700789B7A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BEA1AF23EC700789B7A /* User.m */; };
+		DCE82BED1AF242E900789B7A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE82BEC1AF242E900789B7A /* ViewController.xib */; };
+		DCE82BF11AF244A800789B7A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BEF1AF244A800789B7A /* RegisterViewController.m */; };
+		DCE82BF21AF244A900789B7A /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE82BF01AF244A800789B7A /* RegisterViewController.xib */; };
+		DCE82BF51AF24EFB00789B7A /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BF41AF24EFB00789B7A /* ModelViewController.m */; };
+		DCE82BF91AF2519F00789B7A /* IquiryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE82BF71AF2519F00789B7A /* IquiryViewController.m */; };
+		DCE82BFA1AF2519F00789B7A /* IquiryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE82BF81AF2519F00789B7A /* IquiryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE82BD71AF23E3E00789B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE82BB21AF23E3E00789B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE82BB91AF23E3E00789B7A;
+			remoteInfo = tushu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE82BBA1AF23E3E00789B7A /* tushu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tushu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE82BBE1AF23E3E00789B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE82BBF1AF23E3E00789B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCE82BC11AF23E3E00789B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCE82BC21AF23E3E00789B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCE82BC51AF23E3E00789B7A /* tushu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tushu.xcdatamodel; sourceTree = "<group>"; };
+		DCE82BC71AF23E3E00789B7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCE82BC81AF23E3E00789B7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCE82BCD1AF23E3E00789B7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCE82BD61AF23E3E00789B7A /* tushuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tushuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE82BDB1AF23E3E00789B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE82BDC1AF23E3E00789B7A /* tushuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tushuTests.m; sourceTree = "<group>"; };
+		DCE82BE61AF23EC600789B7A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		DCE82BE71AF23EC600789B7A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		DCE82BE91AF23EC700789B7A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DCE82BEA1AF23EC700789B7A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DCE82BEC1AF242E900789B7A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		DCE82BEE1AF244A800789B7A /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		DCE82BEF1AF244A800789B7A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		DCE82BF01AF244A800789B7A /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		DCE82BF31AF24EFB00789B7A /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		DCE82BF41AF24EFB00789B7A /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		DCE82BF61AF2519F00789B7A /* IquiryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IquiryViewController.h; sourceTree = "<group>"; };
+		DCE82BF71AF2519F00789B7A /* IquiryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IquiryViewController.m; sourceTree = "<group>"; };
+		DCE82BF81AF2519F00789B7A /* IquiryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IquiryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE82BB71AF23E3E00789B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE82BD31AF23E3E00789B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE82BB11AF23E3E00789B7A = {
+			isa = PBXGroup;
+			children = (
+				DCE82BBC1AF23E3E00789B7A /* tushu */,
+				DCE82BD91AF23E3E00789B7A /* tushuTests */,
+				DCE82BBB1AF23E3E00789B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE82BBB1AF23E3E00789B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE82BBA1AF23E3E00789B7A /* tushu.app */,
+				DCE82BD61AF23E3E00789B7A /* tushuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE82BBC1AF23E3E00789B7A /* tushu */ = {
+			isa = PBXGroup;
+			children = (
+				DCE82BC11AF23E3E00789B7A /* AppDelegate.h */,
+				DCE82BC21AF23E3E00789B7A /* AppDelegate.m */,
+				DCE82BC71AF23E3E00789B7A /* ViewController.h */,
+				DCE82BC81AF23E3E00789B7A /* ViewController.m */,
+				DCE82BEC1AF242E900789B7A /* ViewController.xib */,
+				DCE82BEE1AF244A800789B7A /* RegisterViewController.h */,
+				DCE82BEF1AF244A800789B7A /* RegisterViewController.m */,
+				DCE82BF01AF244A800789B7A /* RegisterViewController.xib */,
+				DCE82BF31AF24EFB00789B7A /* ModelViewController.h */,
+				DCE82BF41AF24EFB00789B7A /* ModelViewController.m */,
+				DCE82BF61AF2519F00789B7A /* IquiryViewController.h */,
+				DCE82BF71AF2519F00789B7A /* IquiryViewController.m */,
+				DCE82BF81AF2519F00789B7A /* IquiryViewController.xib */,
+				DCE82BCD1AF23E3E00789B7A /* Images.xcassets */,
+				DCE82BC41AF23E3E00789B7A /* tushu.xcdatamodeld */,
+				DCE82BE91AF23EC700789B7A /* User.h */,
+				DCE82BEA1AF23EC700789B7A /* User.m */,
+				DCE82BE61AF23EC600789B7A /* Book.h */,
+				DCE82BE71AF23EC600789B7A /* Book.m */,
+				DCE82BBD1AF23E3E00789B7A /* Supporting Files */,
+			);
+			path = tushu;
+			sourceTree = "<group>";
+		};
+		DCE82BBD1AF23E3E00789B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE82BBE1AF23E3E00789B7A /* Info.plist */,
+				DCE82BBF1AF23E3E00789B7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE82BD91AF23E3E00789B7A /* tushuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE82BDC1AF23E3E00789B7A /* tushuTests.m */,
+				DCE82BDA1AF23E3E00789B7A /* Supporting Files */,
+			);
+			path = tushuTests;
+			sourceTree = "<group>";
+		};
+		DCE82BDA1AF23E3E00789B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE82BDB1AF23E3E00789B7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE82BB91AF23E3E00789B7A /* tushu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE82BE01AF23E3E00789B7A /* Build configuration list for PBXNativeTarget "tushu" */;
+			buildPhases = (
+				DCE82BB61AF23E3E00789B7A /* Sources */,
+				DCE82BB71AF23E3E00789B7A /* Frameworks */,
+				DCE82BB81AF23E3E00789B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tushu;
+			productName = tushu;
+			productReference = DCE82BBA1AF23E3E00789B7A /* tushu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE82BD51AF23E3E00789B7A /* tushuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE82BE31AF23E3E00789B7A /* Build configuration list for PBXNativeTarget "tushuTests" */;
+			buildPhases = (
+				DCE82BD21AF23E3E00789B7A /* Sources */,
+				DCE82BD31AF23E3E00789B7A /* Frameworks */,
+				DCE82BD41AF23E3E00789B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE82BD81AF23E3E00789B7A /* PBXTargetDependency */,
+			);
+			name = tushuTests;
+			productName = tushuTests;
+			productReference = DCE82BD61AF23E3E00789B7A /* tushuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE82BB21AF23E3E00789B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Faith;
+				TargetAttributes = {
+					DCE82BB91AF23E3E00789B7A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DCE82BD51AF23E3E00789B7A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DCE82BB91AF23E3E00789B7A;
+					};
+				};
+			};
+			buildConfigurationList = DCE82BB51AF23E3E00789B7A /* Build configuration list for PBXProject "tushu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE82BB11AF23E3E00789B7A;
+			productRefGroup = DCE82BBB1AF23E3E00789B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE82BB91AF23E3E00789B7A /* tushu */,
+				DCE82BD51AF23E3E00789B7A /* tushuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE82BB81AF23E3E00789B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE82BED1AF242E900789B7A /* ViewController.xib in Resources */,
+				DCE82BCE1AF23E3E00789B7A /* Images.xcassets in Resources */,
+				DCE82BF21AF244A900789B7A /* RegisterViewController.xib in Resources */,
+				DCE82BFA1AF2519F00789B7A /* IquiryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE82BD41AF23E3E00789B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE82BB61AF23E3E00789B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE82BF51AF24EFB00789B7A /* ModelViewController.m in Sources */,
+				DCE82BE81AF23EC600789B7A /* Book.m in Sources */,
+				DCE82BC31AF23E3E00789B7A /* AppDelegate.m in Sources */,
+				DCE82BEB1AF23EC700789B7A /* User.m in Sources */,
+				DCE82BC01AF23E3E00789B7A /* main.m in Sources */,
+				DCE82BF11AF244A800789B7A /* RegisterViewController.m in Sources */,
+				DCE82BC91AF23E3E00789B7A /* ViewController.m in Sources */,
+				DCE82BF91AF2519F00789B7A /* IquiryViewController.m in Sources */,
+				DCE82BC61AF23E3E00789B7A /* tushu.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE82BD21AF23E3E00789B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE82BDD1AF23E3E00789B7A /* tushuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE82BD81AF23E3E00789B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE82BB91AF23E3E00789B7A /* tushu */;
+			targetProxy = DCE82BD71AF23E3E00789B7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCE82BDE1AF23E3E00789B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE82BDF1AF23E3E00789B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE82BE11AF23E3E00789B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tushu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCE82BE21AF23E3E00789B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tushu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCE82BE41AF23E3E00789B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tushuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tushu.app/tushu";
+			};
+			name = Debug;
+		};
+		DCE82BE51AF23E3E00789B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tushuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tushu.app/tushu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE82BB51AF23E3E00789B7A /* Build configuration list for PBXProject "tushu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE82BDE1AF23E3E00789B7A /* Debug */,
+				DCE82BDF1AF23E3E00789B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE82BE01AF23E3E00789B7A /* Build configuration list for PBXNativeTarget "tushu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE82BE11AF23E3E00789B7A /* Debug */,
+				DCE82BE21AF23E3E00789B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE82BE31AF23E3E00789B7A /* Build configuration list for PBXNativeTarget "tushuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE82BE41AF23E3E00789B7A /* Debug */,
+				DCE82BE51AF23E3E00789B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCE82BC41AF23E3E00789B7A /* tushu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCE82BC51AF23E3E00789B7A /* tushu.xcdatamodel */,
+			);
+			currentVersion = DCE82BC51AF23E3E00789B7A /* tushu.xcdatamodel */;
+			path = tushu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCE82BB21AF23E3E00789B7A /* Project object */;
+}
